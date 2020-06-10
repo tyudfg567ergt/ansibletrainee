@@ -1,0 +1,6 @@
+- hosts: linux
+  tasks:
+  - name: create sensitive file
+    copy:
+      content="This is a sensitive file"
+      dest=/home/ansible/sensitive.txt

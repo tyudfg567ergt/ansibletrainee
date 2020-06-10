@@ -1,0 +1,2 @@
+me: install http package
+  yum: name=httpd state=latest
