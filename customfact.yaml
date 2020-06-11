@@ -8,7 +8,7 @@
       state=directory
   - name: copy fact script to fact directory
     template:
-      src=/root/playbook/datetime.sh.j2
+      src=datetime.sh.j2
       dest=/etc/ansible/facts.d/date_time.fact
       mode=0755
   - name: reload ansible fact
