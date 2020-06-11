@@ -3,7 +3,7 @@
   tasks:
   - name: create file
     file:
-      path: /home/ansible/testfileworkflow
+      path: /home/ansible/testfileworkflow2
       state: touch
   - name: create directory
     file:
